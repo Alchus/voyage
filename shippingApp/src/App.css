@@ -1,0 +1,164 @@
+/* PAGE */
+
+body,
+.pure-g [class*=pure-u] {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fefefe;
+    color: #000000;
+}
+
+.imageBackground {
+  background-image: 'dopewave.jpg';
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    color: #be2a52;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.valueMargin {
+  margin-left: 20px;
+}
+
+
+code {
+    display: block;
+    margin: 20px 0 15px 0;
+    padding: 10px;
+    background: #fffafa;
+}
+
+a:link {
+    color: #00a9b7;
+}
+
+a:visited {
+    color: #00a9b7;
+}
+
+.boldClass {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.boldClassCenter {
+  font-weight: bold;
+  align-items: center;
+  margin-left: 70px;
+}
+
+
+.centerComponent {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 700px;
+}
+
+
+.divideBody {
+    width: 80%;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 45px 20px;
+}
+
+
+.spaceMaker {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.spaceMakerLarge {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.spaceMakerMini {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.cometButton {
+    font-weight: bold;
+    text-align: center;
+    width: 130px;
+    padding: 7px;
+    color: #fdfffe;
+    border-radius: 5px;
+    background: #be2a52;
+    box-shadow: 2px 2px 2px #b0b8c3;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.cometButtonCenter {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    width: 220px;
+    padding: 7px;
+    color: #fdfffe;
+    border-radius: 5px;
+    background: #be2a52;
+    box-shadow: 2px 2px 2px #b0b8c3;
+    cursor: pointer;
+}
+
+.pure-button-primary {
+    background-color: #0c1a2b;
+}
+
+.pure-button-primary:hover {
+    background-color: #233e5e;
+}
+
+.pure-form input[type="text"]:focus {
+    border-color: #0c1a2b;
+}
+
+.underNav {
+    margin-top: 50px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
+    padding: 5px;
+    background: #2abe96;
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+.navbar a {
+    color: #fff;
+    margin-right: 40px;
+}
+
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover {
+    background: #be2a52;
+}
+
+.navbar .pure-menu-heading {
+    font-weight: bold;
+    text-transform: none;
+    margin-left: 80px;
+}
+
+.navbar .navbar-right {
+    float: right;
+}
+
+.navbar .uport-logo {
+    height: 16px;
+    margin-right: 10px;
+}
